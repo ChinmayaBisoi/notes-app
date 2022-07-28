@@ -8,13 +8,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>C.bi Projects</title>
         <link rel="icon" href="/snowflake-solid.svg" />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
-          rel="stylesheet"
-        />
       </Head>
     </Component>
   );
