@@ -8,6 +8,14 @@ const AddNote = ({
   addNote,
   showErr,
   setShowErr,
+}: {
+  content: any;
+  title: string;
+  setTitle: (x: string) => void;
+  setContent: (x: string) => void;
+  addNote: () => void;
+  showErr: boolean;
+  setShowErr: (x: boolean) => void;
 }) => {
   useEffect(() => {
     if (showErr === true) {

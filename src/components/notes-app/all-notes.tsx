@@ -9,7 +9,15 @@ const theme = [
   "bg-[#B8FFF9] text-[#100F0F]",
 ];
 
-const AllNotes = ({ allNotes, deleteNote, editNote }) => {
+const AllNotes = ({
+  allNotes,
+  deleteNote,
+  editNote,
+}: {
+  allNotes: Record<string, any>[];
+  deleteNote: (x: number) => void;
+  editNote: (x: number, y: string, z: string) => void;
+}) => {
   return (
     <div className="py-20">
       <div className="text-[#E2DCC8] text-32 pb-8 flex">

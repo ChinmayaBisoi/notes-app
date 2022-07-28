@@ -30,7 +30,7 @@ const Index = () => {
   const [allNotes, setAllNotes] = useState(akk);
   const [showErr, setShowErr] = useState(false);
 
-  const deleteNote = (id) => {
+  const deleteNote = (id: number) => {
     setAllNotes(allNotes.filter((x) => x.id != id));
   };
 
@@ -54,7 +54,7 @@ const Index = () => {
     }
   };
 
-  const editNote = (id, title, content) => {
+  const editNote = (id: number, title: string, content: string) => {
     setAllNotes(allNotes.filter((x) => x.id != id));
     setTitle(title);
     setContent(content);
