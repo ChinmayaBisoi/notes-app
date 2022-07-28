@@ -63,9 +63,9 @@ const Index = () => {
   return (
     <div
       style={{ fontFamily: "Rubik" }}
-      className="bg-[#0F3D3E] min-h-screen md:pt-50 pt-20 grid grid-cols-12"
+      className="bg-[#0F3D3E] min-h-screen md:pt-50 pb-50 pt-20 grid grid-cols-9"
     >
-      <div className="px-16 md:px-0 md:col-start-3 md:col-span-8 col-span-full">
+      <div className="px-16 md:px-0 md:col-start-3 md:col-span-5 col-span-full">
         <AddNote
           content={content}
           setContent={setContent}

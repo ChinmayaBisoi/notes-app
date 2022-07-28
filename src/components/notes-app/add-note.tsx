@@ -31,7 +31,7 @@ const AddNote = ({
         <div className="pr-8">Add a new note</div>
         <Image src="/book-solid.svg" width={25} height={25} alt={"add-note"} />
       </div>
-      <div className="container md:mx-auto">
+      <div className="container">
         <div className="flex space-y-8 flex-col">
           <div className="px-10 py-8 bg-[#F1F1F1] rounded-4">
             <input
